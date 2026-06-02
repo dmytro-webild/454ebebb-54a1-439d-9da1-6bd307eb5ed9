@@ -66,7 +66,6 @@ export default function Page() {
             tagAnimation="blur-reveal"
             imagePosition="right"
             fixedMediaHeight={true}
-            useInvertedBackground={false}
           />
         </div>
 
@@ -78,7 +77,6 @@ export default function Page() {
             imageSrc="http://img.b2bpic.net/free-photo/charming-african-american-woman-model-black-jacket-hat-waist-bag-relaxing-cafe-free-time-with-mobile-phone_627829-5382.jpg"
             imageAlt="Luxurious cafe interior with minimalist design and space-themed elements"
             useInvertedBackground={true}
-            mediaAnimation="slide-up"
             buttonAnimation="slide-up"
             tagAnimation="slide-up"
           />
