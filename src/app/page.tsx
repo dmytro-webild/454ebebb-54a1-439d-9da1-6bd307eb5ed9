@@ -55,10 +55,10 @@ export default function Page() {
 
         <div id="hero" data-section="hero">
           <HeroSplit
-            title="Dine Among the Stars, Earth Below"
-            description="Experience luxury meets cosmos at Cafe In Space—where minimalist design, premium coffee, and celestial ambiance create an unforgettable escape. Reserve your table in the universe."
+            title="A Galactic Culinary Journey Awaits"
+            description="Step into Cafe In Space, where the cosmos meets cuisine. Indulge in an exquisite menu surrounded by breathtaking celestial views, offering an escape beyond Earth's bounds."
             background={{ variant: "animated-grid" }}
-            buttons={[{ text: "Reserve Your Cosmic Table", href: "#contact" }]} 
+            buttons={[{ text: "Reserve Your Cosmic Table", href: "#contact" }]}
             imageSrc="https://i.imgur.com/rQ0R7pG.jpg"
             imageAlt="Astronaut floating in space looking at a distant galaxy"
             mediaAnimation="blur-reveal"
@@ -66,16 +66,16 @@ export default function Page() {
             tagAnimation="blur-reveal"
             imagePosition="right"
             fixedMediaHeight={true}
-          />
+            marqueeItems={[{ type: "text", text: "Journey into the Cosmos" }, { type: "text-icon", text: "Reserve Your Table", icon: Sparkles }]}/>
         </div>
 
         <div id="about" data-section="about">
           <MediaAbout
-            title="Our Cosmic Journey"
-            description="Cafe In Space is a visionary dining experience blending celestial aesthetics with gourmet culinary artistry. Our mission is to transport you to an ethereal realm, offering meticulously crafted beverages and dishes in an ambiance unlike any other. Discover the universe with every sip and bite."
+            title="Journey Through Our Stellar Story"
+            description="Cafe In Space reimagines dining as an art form, blending futuristic design with a menu inspired by the cosmos. Our commitment to exceptional quality and an immersive atmosphere creates a unique haven for explorers and dreamers alike. Discover how we're redefining the culinary universe."
             tag="Our Story"
             imageSrc="https://i.imgur.com/z0T04v2.jpg"
-            imageAlt="Advanced telescope observing a vibrant nebula"
+            imageAlt="A conceptual artwork of a futuristic cafe interior with celestial elements"
             useInvertedBackground={true}
             buttonAnimation="slide-up"
             tagAnimation="slide-up"
@@ -84,13 +84,13 @@ export default function Page() {
 
         <div id="features" data-section="features">
           <FeatureCardTwentySix
-            title="Celestial Delights & Unique Ambiance"
-            description="Indulge in our signature offerings designed to elevate your senses and captivate your imagination. Each feature is meticulously curated to provide an unparalleled experience."
+            title="Unveiling Our Stellar Offerings"
+            description="Explore the core experiences that define Cafe In Space, from exclusive amenities to our gourmet culinary delights, each designed to transport you."
             features={[
-              { title: "Stellar Coffee Blends", description: "Savor meticulously sourced, premium coffee beans brewed to perfection, offering a truly out-of-this-world taste.", imageSrc: "https://i.imgur.com/Y1Z1Q4r.jpg?_wi=1", imageAlt: "Milky Way stars in a cosmic background", buttonIcon: Sparkles },
-              { title: "Lunar Pastries", description: "Explore an array of artisan pastries and desserts, freshly baked daily with cosmic inspiration and exquisite flavors.", imageSrc: "https://i.imgur.com/bMv9R2S.jpg?_wi=1", imageAlt: "Swirling galaxy abstract art", buttonIcon: Star },
-              { title: "Astro Cocktails", description: "Our signature cocktails are crafted with rare ingredients, offering visually stunning and uniquely flavored beverages for an elevated experience.", imageSrc: "https://i.imgur.com/L7E1tXy.jpg", imageAlt: "View from a spaceship cockpit with stars", buttonIcon: Rocket },
-              { title: "Nebula Nooks", description: "Enjoy intimate moments in our private, semi-secluded 'Nebula Nooks,' perfect for quiet conversations and romantic evenings.", imageSrc: "https://i.imgur.com/G4P4q12.jpg", imageAlt: "Planet Earth viewed from space", buttonIcon: Moon }
+              { title: "Stellar Coffee Blends", description: "Taste the universe with our bespoke coffee blends, crafted from rare, ethically sourced beans, offering a perfect cosmic kick-start.", imageSrc: "https://i.imgur.com/Y1Z1Q4r.jpg?_wi=1", imageAlt: "Milky Way stars in a cosmic background", buttonIcon: Sparkles },
+              { title: "Lunar Pastries", description: "Delight in our artisanal pastries and desserts, baked fresh daily, combining classic flavors with a celestial twist.", imageSrc: "https://i.imgur.com/bMv9R2S.jpg?_wi=1", imageAlt: "Swirling galaxy abstract art", buttonIcon: Star },
+              { title: "Astro Cocktails", description: "Our mixologists craft signature cocktails that are not only visually stunning but also feature unique, exotic ingredients from around the 'galaxy'.", imageSrc: "https://i.imgur.com/L7E1tXy.jpg", imageAlt: "View from a spaceship cockpit with stars", buttonIcon: Rocket },
+              { title: "Nebula Nooks", description: "Find solace in our exclusive 'Nebula Nooks,' providing intimate, semi-private spaces for cherished moments under a canopy of simulated stars.", imageSrc: "https://i.imgur.com/G4P4q12.jpg", imageAlt: "Planet Earth viewed from space", buttonIcon: Moon }
             ]}
             textboxLayout="default"
             useInvertedBackground={false}
@@ -99,15 +99,15 @@ export default function Page() {
 
         <div id="menu" data-section="menu">
           <ProductCardOne
-            title="Our Signature Menu"
-            description="Explore a galaxy of flavors with our specially curated menu, featuring interstellar culinary creations and premium beverages."
+            title="Your Guide to Galactic Gastronomy"
+            description="Embark on a culinary adventure with our meticulously crafted menu, where every dish and drink is a tribute to the cosmos."
             products={[
-              { id: "cosmic-espresso", name: "Cosmic Espresso", price: "$5.00", imageSrc: "https://i.imgur.com/Y1Z1Q4r.jpg?_wi=2", imageAlt: "Cosmic dust swirling in the shape of an espresso" },
-              { id: "galactic-latte", name: "Galactic Latte", price: "$7.50", imageSrc: "https://i.imgur.com/bMv9R2S.jpg?_wi=2", imageAlt: "Galactic latte art resembling a nebula" },
-              { id: "meteorite-muffin", name: "Meteorite Muffin", price: "$4.00", imageSrc: "https://i.imgur.com/M7q1z6f.jpg", imageAlt: "Meteorite-like muffin on a dark, rocky surface" },
-              { id: "andromeda-cheesecake", name: "Andromeda Cheesecake", price: "$9.00", imageSrc: "https://i.imgur.com/L4Z4v9p.jpg", imageAlt: "Cheesecake with a vibrant Andromeda galaxy swirl" },
-              { id: "supernova-smoothie", name: "Supernova Smoothie", price: "$8.50", imageSrc: "https://i.imgur.com/eB8B8g1.jpg", imageAlt: "Smoothie glowing like a supernova with an astronaut silhouette" },
-              { id: "dark-matter-delight", name: "Dark Matter Delight", price: "$10.00", imageSrc: "https://i.imgur.com/H7q7q0P.jpg", imageAlt: "Decadent dark matter chocolate dessert" }
+              { id: "cosmic-espresso", name: "Cosmic Aurora Espresso", price: "$5.00", imageSrc: "https://i.imgur.com/Y1Z1Q4r.jpg?_wi=2", imageAlt: "Cosmic dust swirling in the shape of an espresso" },
+              { id: "galactic-latte", name: "Stardust Vanilla Latte", price: "$7.50", imageSrc: "https://i.imgur.com/bMv9R2S.jpg?_wi=2", imageAlt: "Galactic latte art resembling a nebula" },
+              { id: "meteorite-muffin", name: "Lunar Lava Muffin", price: "$4.00", imageSrc: "https://i.imgur.com/M7q1z6f.jpg", imageAlt: "Meteorite-like muffin on a dark, rocky surface" },
+              { id: "andromeda-cheesecake", name: "Nebula Berry Cheesecake", price: "$9.00", imageSrc: "https://i.imgur.com/L4Z4v9p.jpg", imageAlt: "Cheesecake with a vibrant Andromeda galaxy swirl" },
+              { id: "supernova-smoothie", name: "Solar Flare Smoothie", price: "$8.50", imageSrc: "https://i.imgur.com/eB8B8g1.jpg", imageAlt: "Smoothie glowing like a supernova with an astronaut silhouette" },
+              { id: "dark-matter-delight", name: "Black Hole Brownie", price: "$10.00", imageSrc: "https://i.imgur.com/H7q7q0P.jpg", imageAlt: "Decadent dark matter chocolate dessert" }
             ]}
             gridVariant="bento-grid"
             animationType="scale-rotate"
@@ -118,14 +118,14 @@ export default function Page() {
 
         <div id="testimonials" data-section="testimonials">
           <TestimonialCardTwo
-            title="What Our Stargazers Say"
-            description="Hear from guests who have embarked on a culinary journey at Cafe In Space, sharing their unforgettable moments."
+            title="Voices from the Void: Guest Testimonials"
+            description="Our patrons share their extraordinary encounters and culinary highlights from their visits to Cafe In Space."
             testimonials={[
-              { id: "1", name: "Elara Vance", role: "Luxury Lifestyle Blogger", testimonial: "Cafe In Space is an absolute masterpiece! The ambiance is truly out of this world, and the Celestial Delights cocktail was simply divine. A must-visit for anyone seeking an extraordinary experience.", imageSrc: "https://i.imgur.com/sS4w4wM.jpg", imageAlt: "Portrait of a space explorer, Elara Vance" },
-              { id: "2", name: "Jax Orion", role: "Art Director", testimonial: "Every detail at Cafe In Space, from the minimalist design to the gourmet coffee, speaks volumes of luxury. It's an inspiring retreat that ignites creativity.", imageSrc: "https://i.imgur.com/V9V9v9g.jpg", imageAlt: "Portrait of a tech visionary with Earth in background, Jax Orion" },
-              { id: "3", name: "Seraphina Nova", role: "Fashion Editor", testimonial: "The perfect blend of aesthetic beauty and culinary excellence. Cafe In Space offers a truly 'Instagram-worthy' experience that feels exclusive and deeply satisfying. I'm already planning my next visit!", imageSrc: "https://i.imgur.com/f0f0f0f.jpg", imageAlt: "Portrait of a fashion editor against a cosmic backdrop, Seraphina Nova" },
-              { id: "4", name: "Caspian Zenith", role: "Tech Entrepreneur", testimonial: "As a connoisseur of unique experiences, I can confidently say Cafe In Space exceeds expectations. The 'Dine Among the Stars' promise is fulfilled, delivering an unforgettable escape.", imageSrc: "https://i.imgur.com/d2d2d2d.jpg", imageAlt: "Portrait of an entrepreneur with abstract galaxy, Caspian Zenith" },
-              { id: "5", name: "Lyra Astra", role: "Travel Influencer", testimonial: "This cafe is a hidden gem! The atmosphere is captivating, and the Lunar Pastries are a dream. It's more than just a cafe; it's an adventure for the senses. Highly recommended!", imageSrc: "https://i.imgur.com/a5a5a5a.jpg", imageAlt: "Portrait of a travel influencer in a nebula setting, Lyra Astra" }
+              { id: "1", name: "Elara Vance", role: "Luxury Lifestyle Blogger", testimonial: "Cafe In Space is an absolute masterpiece! The celestial ambiance and the Astro Cocktails are truly out of this world. A must-visit for anyone seeking an extraordinary dining experience.", imageSrc: "https://i.imgur.com/sS4w4wM.jpg", imageAlt: "Portrait of a space explorer, Elara Vance" },
+              { id: "2", name: "Jax Orion", role: "Art Director", testimonial: "Every detail, from the avant-garde design to the exquisitely crafted menu, speaks volumes of luxury. It's an inspiring retreat that ignites all senses.", imageSrc: "https://i.imgur.com/V9V9v9g.jpg", imageAlt: "Portrait of a tech visionary with Earth in background, Jax Orion" },
+              { id: "3", name: "Seraphina Nova", role: "Fashion Editor", testimonial: "The perfect fusion of aesthetic beauty and gourmet excellence. Cafe In Space offers a truly captivating experience that feels both exclusive and deeply satisfying. I'm eager for my next visit!", imageSrc: "https://i.imgur.com/f0f0f0f.jpg", imageAlt: "Portrait of a fashion editor against a cosmic backdrop, Seraphina Nova" },
+              { id: "4", name: "Caspian Zenith", role: "Tech Entrepreneur", testimonial: "As a connoisseur of unique experiences, Cafe In Space consistently exceeds expectations. The promise of 'Dine Among the Stars' is perfectly fulfilled, offering an unforgettable escape.", imageSrc: "https://i.imgur.com/d2d2d2d.jpg", imageAlt: "Portrait of an entrepreneur with abstract galaxy, Caspian Zenith" },
+              { id: "5", name: "Lyra Astra", role: "Travel Influencer", testimonial: "This cafe is a celestial marvel! The atmosphere is mesmerizing, and the Lunar Pastries are a dream come true. It's more than a meal; it's an adventure for the soul. Highly recommended!", imageSrc: "https://i.imgur.com/a5a5a5a.jpg", imageAlt: "Portrait of a travel influencer in a nebula setting, Lyra Astra" }
             ]}
             animationType="blur-reveal"
             textboxLayout="default"
@@ -135,9 +135,9 @@ export default function Page() {
 
         <div id="social-proof" data-section="social-proof">
           <SocialProofOne
-            title="Featured In & Loved By"
-            description="Our unique space-themed dining experience has captivated critics and customers alike, earning accolades across the culinary universe."
-            names={["Cosmo Eats", "Star Critic", "Urban Explorer", "Luxury Life", "The Daily Blend", "Gourmet Galaxy", "Planet Palate"]}
+            title="Celestial Endorsements"
+            description="Celebrated by leading culinary critics and cosmic explorers, Cafe In Space is recognized for its groundbreaking approach to dining."
+            names={["Galactic Gourmet", "Starfield Magazine", "Astro Chef Review", "Cosmic Traveler", "Orbital Digest", "Universe Today", "Planetary Plates"]}
             textboxLayout="default"
             useInvertedBackground={true}
             showCard={false}
@@ -146,13 +146,13 @@ export default function Page() {
 
         <div id="faq" data-section="faq">
           <FaqSplitMedia
-            title="Frequently Asked Questions"
-            description="Find answers to common inquiries about reservations, menu, and our unique space-themed experience."
+            title="Cosmic Queries: Your Questions Answered"
+            description="Navigate our frequently asked questions for detailed information on reservations, special events, and what to expect during your visit to Cafe In Space."
             faqs={[
-              { id: "1", title: "How do I make a reservation?", content: "Reservations can be made easily through our website's 'Reserve Table' button or by calling us directly. We recommend booking in advance, especially for weekend evenings." },
-              { id: "2", title: "What are your opening hours?", content: "Cafe In Space is open Tuesday to Sunday, from 10:00 AM to 10:00 PM. We are closed on Mondays for cosmic maintenance." },
-              { id: "3", title: "Do you cater to dietary restrictions?", content: "Yes, our culinary team is happy to accommodate most dietary restrictions and allergies. Please inform us when making your reservation or upon arrival." },
-              { id: "4", title: "Is there a dress code?", content: "We encourage smart casual attire to complement our luxurious ambiance. While not strictly enforced, many guests enjoy dressing up for the occasion." }
+              { id: "1", title: "How do I make a reservation?", content: "Securing your table among the stars is simple! You can make reservations directly through our website’s 'Initiate Reservation' button or by contacting our concierge service. Advance booking is highly recommended." },
+              { id: "2", title: "What are your opening hours?", content: "Cafe In Space welcomes you from Tuesday to Sunday, 10:00 AM to 10:00 PM. We observe Cosmic Maintenance Days on Mondays." },
+              { id: "3", title: "Do you cater to dietary restrictions?", content: "Absolutely, our culinary team is adept at accommodating various dietary needs and allergies. Kindly inform us of any requirements when booking or upon your arrival." },
+              { id: "4", title: "Is there a dress code?", content: "We encourage 'Cosmic Chic' or smart casual attire to enhance our luxurious ambiance. While not mandatory, many guests enjoy dressing for an elevated interstellar experience." }
             ]}
             imageSrc="https://i.imgur.com/g8g8g8g.jpg"
             imageAlt="Astronaut reading a holographic tablet in a futuristic setting"
@@ -165,10 +165,10 @@ export default function Page() {
 
         <div id="contact" data-section="contact">
           <ContactCTA
-            tag="Reserve Now"
-            title="Your Table Among the Stars Awaits"
-            description="Join us for an unparalleled dining experience. Reserve your table today and prepare for a cosmic culinary adventure."
-            buttons={[{ text: "Book Your Experience", href: "#" }]}
+            tag="Connect with the Cosmos"
+            title="Begin Your Interstellar Reservation"
+            description="Secure your passage to an unforgettable dining experience. Our team is ready to assist you in planning your visit to Cafe In Space."
+            buttons={[{ text: "Initiate Reservation", href: "#" }]}
             background={{ variant: "animated-grid" }}
             useInvertedBackground={true}
             tagAnimation="slide-up"
@@ -182,10 +182,10 @@ export default function Page() {
             imageAlt="Stunning panorama of a galaxy with millions of stars"
             logoText="Cafe In Space"
             columns={[
-              { title: "About Us", items: [{ label: "Our Story", href: "#about" }, { label: "Philosophy", href: "#" }, { label: "Team", href: "#" }] },
-              { title: "Menu", items: [{ label: "Beverages", href: "#menu" }, { label: "Pastries", href: "#menu" }, { label: "Specialty Items", href: "#menu" }] },
-              { title: "Reservations", items: [{ label: "Book a Table", href: "#contact" }, { label: "Events", href: "#" }, { label: "Private Dining", href: "#" }] },
-              { title: "Contact", items: [{ label: "Location", href: "#" }, { label: "Get in Touch", href: "#contact" }, { label: "FAQs", href: "#faq" }] }
+              { title: "About Us", items: [{ label: "Our Galaxy", href: "#about" }, { label: "Our Mission", href: "#" }, { label: "Pioneers", href: "#" }] },
+              { title: "Menu", items: [{ label: "Cosmic Beverages", href: "#menu" }, { label: "Lunar Sweets", href: "#menu" }, { label: "Star Signatures", href: "#menu" }] },
+              { title: "Reservations", items: [{ label: "Book Passage", href: "#contact" }, { label: "Celestial Events", href: "#" }, { label: "Private Voyages", href: "#" }] },
+              { title: "Contact", items: [{ label: "Starport Location", href: "#" }, { label: "Reach Out", href: "#contact" }, { label: "Cosmic FAQ", href: "#faq" }] }
             ]}
             copyrightText="© 2225 Cafe In Space. All rights reserved."
           />
