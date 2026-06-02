@@ -87,8 +87,8 @@ export default function Page() {
             title="Celestial Delights & Unique Ambiance"
             description="Indulge in our signature offerings designed to elevate your senses and captivate your imagination. Each feature is meticulously curated to provide an unparalleled experience."
             features={[
-              { title: "Stellar Coffee Blends", description: "Savor meticulously sourced, premium coffee beans brewed to perfection, offering a truly out-of-this-world taste.", imageSrc: "https://i.imgur.com/Y1Z1Q4r.jpg", imageAlt: "Milky Way stars in a cosmic background", buttonIcon: Sparkles },
-              { title: "Lunar Pastries", description: "Explore an array of artisan pastries and desserts, freshly baked daily with cosmic inspiration and exquisite flavors.", imageSrc: "https://i.imgur.com/bMv9R2S.jpg", imageAlt: "Swirling galaxy abstract art", buttonIcon: Star },
+              { title: "Stellar Coffee Blends", description: "Savor meticulously sourced, premium coffee beans brewed to perfection, offering a truly out-of-this-world taste.", imageSrc: "https://i.imgur.com/Y1Z1Q4r.jpg?_wi=1", imageAlt: "Milky Way stars in a cosmic background", buttonIcon: Sparkles },
+              { title: "Lunar Pastries", description: "Explore an array of artisan pastries and desserts, freshly baked daily with cosmic inspiration and exquisite flavors.", imageSrc: "https://i.imgur.com/bMv9R2S.jpg?_wi=1", imageAlt: "Swirling galaxy abstract art", buttonIcon: Star },
               { title: "Astro Cocktails", description: "Our signature cocktails are crafted with rare ingredients, offering visually stunning and uniquely flavored beverages for an elevated experience.", imageSrc: "https://i.imgur.com/L7E1tXy.jpg", imageAlt: "View from a spaceship cockpit with stars", buttonIcon: Rocket },
               { title: "Nebula Nooks", description: "Enjoy intimate moments in our private, semi-secluded 'Nebula Nooks,' perfect for quiet conversations and romantic evenings.", imageSrc: "https://i.imgur.com/G4P4q12.jpg", imageAlt: "Planet Earth viewed from space", buttonIcon: Moon }
             ]}
@@ -102,8 +102,8 @@ export default function Page() {
             title="Our Signature Menu"
             description="Explore a galaxy of flavors with our specially curated menu, featuring interstellar culinary creations and premium beverages."
             products={[
-              { id: "cosmic-espresso", name: "Cosmic Espresso", price: "$5.00", imageSrc: "https://i.imgur.com/Y1Z1Q4r.jpg", imageAlt: "Cosmic dust swirling in the shape of an espresso" },
-              { id: "galactic-latte", name: "Galactic Latte", price: "$7.50", imageSrc: "https://i.imgur.com/bMv9R2S.jpg", imageAlt: "Galactic latte art resembling a nebula" },
+              { id: "cosmic-espresso", name: "Cosmic Espresso", price: "$5.00", imageSrc: "https://i.imgur.com/Y1Z1Q4r.jpg?_wi=2", imageAlt: "Cosmic dust swirling in the shape of an espresso" },
+              { id: "galactic-latte", name: "Galactic Latte", price: "$7.50", imageSrc: "https://i.imgur.com/bMv9R2S.jpg?_wi=2", imageAlt: "Galactic latte art resembling a nebula" },
               { id: "meteorite-muffin", name: "Meteorite Muffin", price: "$4.00", imageSrc: "https://i.imgur.com/M7q1z6f.jpg", imageAlt: "Meteorite-like muffin on a dark, rocky surface" },
               { id: "andromeda-cheesecake", name: "Andromeda Cheesecake", price: "$9.00", imageSrc: "https://i.imgur.com/L4Z4v9p.jpg", imageAlt: "Cheesecake with a vibrant Andromeda galaxy swirl" },
               { id: "supernova-smoothie", name: "Supernova Smoothie", price: "$8.50", imageSrc: "https://i.imgur.com/eB8B8g1.jpg", imageAlt: "Smoothie glowing like a supernova with an astronaut silhouette" },
